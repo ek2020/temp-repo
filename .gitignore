@@ -4,7 +4,6 @@ __pycache__/
 *.DS_Store
 .env
 *.xlsx
-*.json
 *.csv
 venv/
 .venv/

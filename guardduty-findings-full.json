@@ -1,0 +1,514 @@
+{
+    "Findings": [
+        {
+            "AccountId": "552641883261",
+            "Arn": "arn:aws:guardduty:us-east-2:552641883261:detector/a8cca6f6b73d215e5b17b075e6d27866/finding/f8ccae3c7b98ccd687faf3f95cae6bcc",
+            "CreatedAt": "2025-09-18T10:57:35.537Z",
+            "Description": "43.248.141.80 is performing SSH brute force attacks against i-04827488adc576134. Brute force attacks are used to gain unauthorized access to your instance by guessing the SSH password.",
+            "Id": "f8ccae3c7b98ccd687faf3f95cae6bcc",
+            "Partition": "aws",
+            "Region": "us-east-2",
+            "Resource": {
+                "InstanceDetails": {
+                    "AvailabilityZone": "us-east-2a",
+                    "ImageDescription": "Amazon Linux 2023 AMI 2023.8.20250707.0 x86_64 HVM kernel-6.1",
+                    "ImageId": "ami-0eb9d6fc9fab44d24",
+                    "InstanceId": "i-04827488adc576134",
+                    "InstanceState": "running",
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2025-07-17T19:25:19.000Z",
+                    "NetworkInterfaces": [
+                        {
+                            "Ipv6Addresses": [],
+                            "NetworkInterfaceId": "eni-01e689877991b0511",
+                            "PrivateDnsName": "ip-10-116-14-140.us-east-2.compute.internal",
+                            "PrivateIpAddress": "10.116.14.140",
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-10-116-14-140.us-east-2.compute.internal",
+                                    "PrivateIpAddress": "10.116.14.140"
+                                }
+                            ],
+                            "PublicDnsName": "ec2-3-143-26-252.us-east-2.compute.amazonaws.com",
+                            "PublicIp": "3.143.26.252",
+                            "SecurityGroups": [
+                                {
+                                    "GroupId": "sg-0127b937bb115e23b",
+                                    "GroupName": "Capsa-Network-mgmt-bastion-SG-us-east-2"
+                                }
+                            ],
+                            "SubnetId": "subnet-03d4b57feac4073f7",
+                            "VpcId": "vpc-0dbc81c443a94a4f9"
+                        }
+                    ],
+                    "ProductCodes": [],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "Capsa-Network-mgmt-bastion-us-east-2"
+                        }
+                    ]
+                },
+                "ResourceType": "Instance"
+            },
+            "SchemaVersion": "2.0",
+            "Service": {
+                "Action": {
+                    "ActionType": "NETWORK_CONNECTION",
+                    "NetworkConnectionAction": {
+                        "Blocked": false,
+                        "ConnectionDirection": "INBOUND",
+                        "LocalPortDetails": {
+                            "Port": 22,
+                            "PortName": "SSH"
+                        },
+                        "Protocol": "TCP",
+                        "LocalIpDetails": {
+                            "IpAddressV4": "10.116.14.140"
+                        },
+                        "LocalNetworkInterface": "eni-01e689877991b0511",
+                        "RemoteIpDetails": {
+                            "City": {
+                                "CityName": "UNKNOWN"
+                            },
+                            "Country": {
+                                "CountryName": "China"
+                            },
+                            "GeoLocation": {
+                                "Lat": 34.7732,
+                                "Lon": 113.722
+                            },
+                            "IpAddressV4": "43.248.141.80",
+                            "Organization": {
+                                "Asn": "23650",
+                                "AsnOrg": "AS Number for CHINANET jiangsu province backbone",
+                                "Isp": "China Telecom jiangsu province backbone",
+                                "Org": "China Telecom jiangsu province backbone"
+                            }
+                        },
+                        "RemotePortDetails": {
+                            "Port": 32910,
+                            "PortName": "Unknown"
+                        }
+                    }
+                },
+                "Archived": false,
+                "Count": 5,
+                "DetectorId": "a8cca6f6b73d215e5b17b075e6d27866",
+                "EventFirstSeen": "2025-09-18T10:48:43.000Z",
+                "EventLastSeen": "2025-09-27T05:50:32.000Z",
+                "ResourceRole": "TARGET",
+                "ServiceName": "guardduty",
+                "AdditionalInfo": {
+                    "Value": "{}",
+                    "Type": "default"
+                },
+                "FeatureName": "VpcFlowLogs"
+            },
+            "Severity": 2.0,
+            "Title": "43.248.141.80 is performing SSH brute force attacks against i-04827488adc576134.",
+            "Type": "UnauthorizedAccess:EC2/SSHBruteForce",
+            "UpdatedAt": "2025-09-27T05:57:23.244Z"
+        },
+        {
+            "AccountId": "110611798842",
+            "Arn": "arn:aws:guardduty:us-east-2:110611798842:detector/d8cca6f6f797e59e506422f85d38da4d/finding/b8ccbe9a23501ea30e3b5522e281bc92",
+            "CreatedAt": "2025-09-24T19:30:02.016Z",
+            "Description": "Amazon S3 Block Public Access was disabled for the S3 bucket iqdev.capsahealthcare.com by AWSReservedSSO_CapsaAWSDevelopersEDM-UserAccess_d51ea2020a3c890c calling PutBucketPublicAccessBlock. If this behavior is not expected, it may indicate a configuration mistake or that your credentials are compromised.",
+            "Id": "b8ccbe9a23501ea30e3b5522e281bc92",
+            "Partition": "aws",
+            "Region": "us-east-2",
+            "Resource": {
+                "AccessKeyDetails": {
+                    "AccessKeyId": "ASIARTQH2DM5GKIT2V2H",
+                    "PrincipalId": "AROARTQH2DM5IJYLPQXJV:aarumugam@capsahealthcare.com",
+                    "UserName": "AWSReservedSSO_CapsaAWSDevelopersEDM-UserAccess_d51ea2020a3c890c",
+                    "UserType": "AssumedRole"
+                },
+                "S3BucketDetails": [
+                    {
+                        "Arn": "arn:aws:s3:::iqdev.capsahealthcare.com",
+                        "Name": "iqdev.capsahealthcare.com",
+                        "Type": "Destination",
+                        "CreatedAt": 1758741832.0,
+                        "Owner": {
+                            "Id": "d8e2bb16aaa1cb9f6f531dd1f39c2709d16f7fb2c8bdf78c3df6528926033205"
+                        },
+                        "Tags": [
+                            {
+                                "Key": "Project",
+                                "Value": "IQ"
+                            },
+                            {
+                                "Key": "aws:cloudformation:stack-name",
+                                "Value": "IQ-CloudfrontStack"
+                            },
+                            {
+                                "Key": "Owner",
+                                "Value": "smanickam@capsahealthcare.com"
+                            },
+                            {
+                                "Key": "aws:cloudformation:stack-id",
+                                "Value": "arn:aws:cloudformation:us-east-2:110611798842:stack/IQ-CloudfrontStack/f51fbb50-997b-11f0-8f7a-067b41b57fe7"
+                            },
+                            {
+                                "Key": "Environment",
+                                "Value": "dev"
+                            },
+                            {
+                                "Key": "aws:cloudformation:logical-id",
+                                "Value": "S3Bucket"
+                            },
+                            {
+                                "Key": "Application",
+                                "Value": "ui-infra"
+                            },
+                            {
+                                "Key": "Name",
+                                "Value": "capsa-edmplatform-s3"
+                            }
+                        ],
+                        "DefaultServerSideEncryption": {
+                            "EncryptionType": "AES256"
+                        },
+                        "PublicAccess": {
+                            "PermissionConfiguration": {
+                                "BucketLevelPermissions": {
+                                    "AccessControlList": {
+                                        "AllowsPublicReadAccess": false,
+                                        "AllowsPublicWriteAccess": false
+                                    },
+                                    "BucketPolicy": {
+                                        "AllowsPublicReadAccess": false,
+                                        "AllowsPublicWriteAccess": false
+                                    },
+                                    "BlockPublicAccess": {
+                                        "IgnorePublicAcls": false,
+                                        "RestrictPublicBuckets": false,
+                                        "BlockPublicAcls": false,
+                                        "BlockPublicPolicy": false
+                                    }
+                                },
+                                "AccountLevelPermissions": {
+                                    "BlockPublicAccess": {
+                                        "IgnorePublicAcls": false,
+                                        "RestrictPublicBuckets": false,
+                                        "BlockPublicAcls": false,
+                                        "BlockPublicPolicy": false
+                                    }
+                                }
+                            },
+                            "EffectivePermission": "NOT_PUBLIC"
+                        }
+                    }
+                ],
+                "ResourceType": "AccessKey"
+            },
+            "SchemaVersion": "2.0",
+            "Service": {
+                "Action": {
+                    "ActionType": "AWS_API_CALL",
+                    "AwsApiCallAction": {
+                        "Api": "PutBucketPublicAccessBlock",
+                        "CallerType": "Domain",
+                        "DomainDetails": {
+                            "Domain": "cloudformation.amazonaws.com"
+                        },
+                        "ServiceName": "s3.amazonaws.com",
+                        "AffectedResources": {
+                            "AWS::S3::Bucket": "iqdev.capsahealthcare.com"
+                        }
+                    }
+                },
+                "Archived": false,
+                "Count": 1,
+                "DetectorId": "d8cca6f6f797e59e506422f85d38da4d",
+                "EventFirstSeen": "2025-09-24T19:23:38.000Z",
+                "EventLastSeen": "2025-09-24T19:23:38.000Z",
+                "ResourceRole": "TARGET",
+                "ServiceName": "guardduty",
+                "AdditionalInfo": {
+                    "Value": "{}",
+                    "Type": "default"
+                },
+                "FeatureName": "CloudTrailManagementEvent"
+            },
+            "Severity": 2.0,
+            "Title": "Amazon S3 Block Public Access was disabled for the S3 bucket iqdev.capsahealthcare.com.",
+            "Type": "Policy:S3/BucketBlockPublicAccessDisabled",
+            "UpdatedAt": "2025-09-24T19:30:02.016Z"
+        },
+        {
+            "AccountId": "552641883261",
+            "Arn": "arn:aws:guardduty:us-east-2:552641883261:detector/a8cca6f6b73d215e5b17b075e6d27866/finding/30cca7660c800008b57a72cf37d67f2c",
+            "CreatedAt": "2025-09-15T19:13:42.656Z",
+            "Description": "An EC2 instance has an unprotected port which is being probed by a known malicious host.",
+            "Id": "30cca7660c800008b57a72cf37d67f2c",
+            "Partition": "aws",
+            "Region": "us-east-2",
+            "Resource": {
+                "InstanceDetails": {
+                    "AvailabilityZone": "us-east-2a",
+                    "ImageDescription": "Firebox Cloud 12.10.4.B701004 PAYG",
+                    "ImageId": "ami-0ba459fe892be21ce",
+                    "InstanceId": "i-02d8cc39d46640572",
+                    "InstanceState": "running",
+                    "InstanceType": "c5.xlarge",
+                    "LaunchTime": "2025-07-15T20:44:11.000Z",
+                    "NetworkInterfaces": [
+                        {
+                            "Ipv6Addresses": [],
+                            "NetworkInterfaceId": "eni-02c8368908b911b09",
+                            "PrivateDnsName": "ip-10-116-1-211.us-east-2.compute.internal",
+                            "PrivateIpAddress": "10.116.1.211",
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-10-116-1-211.us-east-2.compute.internal",
+                                    "PrivateIpAddress": "10.116.1.211"
+                                }
+                            ],
+                            "PublicDnsName": "ec2-3-20-210-0.us-east-2.compute.amazonaws.com",
+                            "PublicIp": "3.20.210.0",
+                            "SecurityGroups": [
+                                {
+                                    "GroupId": "sg-0308bff2c6bfc96bd",
+                                    "GroupName": "WG-Public-SG"
+                                }
+                            ],
+                            "SubnetId": "subnet-0a80c3eeb00efe49c",
+                            "VpcId": "vpc-0dbc81c443a94a4f9"
+                        },
+                        {
+                            "Ipv6Addresses": [],
+                            "NetworkInterfaceId": "eni-09f76156c76ac5271",
+                            "PrivateDnsName": "ip-10-116-5-105.us-east-2.compute.internal",
+                            "PrivateIpAddress": "10.116.5.105",
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-10-116-5-105.us-east-2.compute.internal",
+                                    "PrivateIpAddress": "10.116.5.105"
+                                }
+                            ],
+                            "SecurityGroups": [
+                                {
+                                    "GroupId": "sg-0ec3a49c2ebf54625",
+                                    "GroupName": "WG-Private-SG"
+                                }
+                            ],
+                            "SubnetId": "subnet-0614a462a6a128abb",
+                            "VpcId": "vpc-0dbc81c443a94a4f9"
+                        }
+                    ],
+                    "ProductCodes": [
+                        {
+                            "Code": "5cuff4bjl1oxt0kr3cn7majrh",
+                            "ProductType": "marketplace"
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "WG-AWS-CAPSA"
+                        }
+                    ]
+                },
+                "ResourceType": "Instance"
+            },
+            "SchemaVersion": "2.0",
+            "Service": {
+                "Action": {
+                    "ActionType": "PORT_PROBE",
+                    "PortProbeAction": {
+                        "Blocked": false,
+                        "PortProbeDetails": [
+                            {
+                                "LocalPortDetails": {
+                                    "Port": 8080,
+                                    "PortName": "HTTP"
+                                },
+                                "RemoteIpDetails": {
+                                    "City": {
+                                        "CityName": "Ashburn"
+                                    },
+                                    "Country": {
+                                        "CountryName": "United States"
+                                    },
+                                    "GeoLocation": {
+                                        "Lat": 39.018,
+                                        "Lon": -77.539
+                                    },
+                                    "IpAddressV4": "45.38.44.221",
+                                    "Organization": {
+                                        "Asn": "400536",
+                                        "AsnOrg": "NODESTOP-LLC",
+                                        "Isp": "Nodestop, LLC",
+                                        "Org": "Nodestop, LLC"
+                                    }
+                                }
+                            },
+                            {
+                                "LocalPortDetails": {
+                                    "Port": 4117,
+                                    "PortName": "Unknown"
+                                },
+                                "RemoteIpDetails": {
+                                    "City": {
+                                        "CityName": "UNKNOWN"
+                                    },
+                                    "Country": {
+                                        "CountryName": "United States"
+                                    },
+                                    "GeoLocation": {
+                                        "Lat": 37.751,
+                                        "Lon": -97.822
+                                    },
+                                    "IpAddressV4": "65.49.1.142",
+                                    "Organization": {
+                                        "Asn": "6939",
+                                        "AsnOrg": "HURRICANE",
+                                        "Isp": "Hurricane Electric",
+                                        "Org": "Hurricane Electric"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                "Evidence": {
+                    "ThreatIntelligenceDetails": [
+                        {
+                            "ThreatListName": "ProofPoint",
+                            "ThreatNames": []
+                        }
+                    ]
+                },
+                "Archived": false,
+                "Count": 94,
+                "DetectorId": "a8cca6f6b73d215e5b17b075e6d27866",
+                "EventFirstSeen": "2025-09-15T19:10:15.000Z",
+                "EventLastSeen": "2025-09-24T18:27:53.000Z",
+                "ResourceRole": "TARGET",
+                "ServiceName": "guardduty",
+                "AdditionalInfo": {
+                    "Value": "{\"threatListName\":\"ProofPoint\"}",
+                    "Type": "default"
+                },
+                "FeatureName": "VpcFlowLogs"
+            },
+            "Severity": 2.0,
+            "Title": "An unprotected port on EC2 instance i-02d8cc39d46640572 is being probed.",
+            "Type": "Recon:EC2/PortProbeUnprotectedPort",
+            "UpdatedAt": "2025-09-24T18:33:27.221Z"
+        },
+        {
+            "AccountId": "552641883261",
+            "Arn": "arn:aws:guardduty:us-east-2:552641883261:detector/a8cca6f6b73d215e5b17b075e6d27866/finding/ccccbe60e670cc82491557657384e223",
+            "CreatedAt": "2025-09-24T17:24:59.745Z",
+            "Description": "114.217.53.0 is performing SSH brute force attacks against i-09d8aca1845fd774c. Brute force attacks are used to gain unauthorized access to your instance by guessing the SSH password.",
+            "Id": "ccccbe60e670cc82491557657384e223",
+            "Partition": "aws",
+            "Region": "us-east-2",
+            "Resource": {
+                "InstanceDetails": {
+                    "AvailabilityZone": "us-east-2a",
+                    "ImageDescription": "Amazon Linux 2023 AMI 2023.7.20250623.1 x86_64 HVM kernel-6.1",
+                    "ImageId": "ami-0c803b171269e2d72",
+                    "InstanceId": "i-09d8aca1845fd774c",
+                    "InstanceState": "running",
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2025-07-11T18:43:46.000Z",
+                    "NetworkInterfaces": [
+                        {
+                            "Ipv6Addresses": [],
+                            "NetworkInterfaceId": "eni-0f3fb2aec5784b8da",
+                            "PrivateDnsName": "ip-10-116-1-174.us-east-2.compute.internal",
+                            "PrivateIpAddress": "10.116.1.174",
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-10-116-1-174.us-east-2.compute.internal",
+                                    "PrivateIpAddress": "10.116.1.174"
+                                }
+                            ],
+                            "PublicDnsName": "ec2-3-129-195-105.us-east-2.compute.amazonaws.com",
+                            "PublicIp": "3.129.195.105",
+                            "SecurityGroups": [
+                                {
+                                    "GroupId": "sg-01f82777b6f11f158",
+                                    "GroupName": "launch-wizard-1"
+                                }
+                            ],
+                            "SubnetId": "subnet-0a80c3eeb00efe49c",
+                            "VpcId": "vpc-0dbc81c443a94a4f9"
+                        }
+                    ],
+                    "ProductCodes": [],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "test-vpn"
+                        }
+                    ]
+                },
+                "ResourceType": "Instance"
+            },
+            "SchemaVersion": "2.0",
+            "Service": {
+                "Action": {
+                    "ActionType": "NETWORK_CONNECTION",
+                    "NetworkConnectionAction": {
+                        "Blocked": false,
+                        "ConnectionDirection": "INBOUND",
+                        "LocalPortDetails": {
+                            "Port": 22,
+                            "PortName": "SSH"
+                        },
+                        "Protocol": "TCP",
+                        "LocalIpDetails": {
+                            "IpAddressV4": "10.116.1.174"
+                        },
+                        "LocalNetworkInterface": "eni-0f3fb2aec5784b8da",
+                        "RemoteIpDetails": {
+                            "City": {
+                                "CityName": "UNKNOWN"
+                            },
+                            "Country": {
+                                "CountryName": "China"
+                            },
+                            "GeoLocation": {
+                                "Lat": 34.7732,
+                                "Lon": 113.722
+                            },
+                            "IpAddressV4": "114.217.53.0",
+                            "Organization": {
+                                "Asn": "4134",
+                                "AsnOrg": "Chinanet",
+                                "Isp": "China Telecom",
+                                "Org": "China Telecom"
+                            }
+                        },
+                        "RemotePortDetails": {
+                            "Port": 32884,
+                            "PortName": "Unknown"
+                        }
+                    }
+                },
+                "Archived": false,
+                "Count": 2,
+                "DetectorId": "a8cca6f6b73d215e5b17b075e6d27866",
+                "EventFirstSeen": "2025-09-24T17:12:33.000Z",
+                "EventLastSeen": "2025-09-24T17:23:31.000Z",
+                "ResourceRole": "TARGET",
+                "ServiceName": "guardduty",
+                "AdditionalInfo": {
+                    "Value": "{}",
+                    "Type": "default"
+                },
+                "FeatureName": "VpcFlowLogs"
+            },
+            "Severity": 2.0,
+            "Title": "114.217.53.0 is performing SSH brute force attacks against i-09d8aca1845fd774c.",
+            "Type": "UnauthorizedAccess:EC2/SSHBruteForce",
+            "UpdatedAt": "2025-09-24T17:33:32.488Z"
+        }
+    ]
+}

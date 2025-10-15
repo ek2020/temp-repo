@@ -1,0 +1,615 @@
+{
+    "MemberDetails": [
+        {
+            "AccountId": "094092120598",
+            "EmailAddress": "aws+digital_capsa_ai_dev@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:30.570Z",
+            "VolumeUsageInBytes": 61727685,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 6.1727685e-06,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 794877,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 60932808,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "110611798842",
+            "EmailAddress": "aws+corporate_edm_dev@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:43:17.190Z",
+            "VolumeUsageInBytes": 20632257,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 2.0632257e-06,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 475857,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 20156400,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "224461848263",
+            "EmailAddress": "aws+digital_bluebin_qa@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:43:17.608Z",
+            "VolumeUsageInBytes": 5570721,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 5.570721e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 125121,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 5445600,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "408844953572",
+            "EmailAddress": "aws+corporate_app_dev@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:31.097Z",
+            "VolumeUsageInBytes": 8998966,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 8.998966e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 578566,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 8420400,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "425454507925",
+            "EmailAddress": "aws+corporate_app_qa@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:43:17.768Z",
+            "VolumeUsageInBytes": 5858798,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 5.858798e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 137198,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 5721600,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "442228338113",
+            "EmailAddress": "aws+digital_capsa_ai_prod@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:43:17.863Z",
+            "VolumeUsageInBytes": 5614605,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 5.614605e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 116205,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 5498400,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "491087500610",
+            "EmailAddress": "aws+corporate_edm_qa@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:43:17.967Z",
+            "VolumeUsageInBytes": 6052384,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 6.052384e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 119584,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 5932800,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "499305886607",
+            "EmailAddress": "aws+digital_bluebin_dev@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:44.911Z",
+            "VolumeUsageInBytes": 371087874,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 3.71087874e-05,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 953206,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 64787588,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 305347080,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "516541255748",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:36:56.969Z",
+            "UpdatedTime": "2025-10-03T09:37:24.153Z",
+            "VolumeUsageInBytes": 10651517,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 1.0651517e-06,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 785117,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 9866400,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "552641883261",
+            "EmailAddress": "aws+network@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:44.438Z",
+            "VolumeUsageInBytes": 18741126,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 1.8741126e-06,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 613056,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 18128070,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "698772346265",
+            "EmailAddress": "aws+corporate_edm_prod@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:44.160Z",
+            "VolumeUsageInBytes": 5436894,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 5.436894e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 116094,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 5320800,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "699013266670",
+            "EmailAddress": "aws+automation@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:43:18.081Z",
+            "VolumeUsageInBytes": 27832705,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 2.7832705e-06,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 193105,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 27639600,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "728138073242",
+            "EmailAddress": "aws+log@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:38:16.353Z",
+            "VolumeUsageInBytes": 5605794,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 5.605794e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 119394,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 5486400,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "762233745579",
+            "EmailAddress": "aws@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:38.227Z",
+            "VolumeUsageInBytes": 3617740,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 3.61774e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 12940,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 3604800,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "864247554985",
+            "EmailAddress": "aws+corporate_app_prod@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:32.848Z",
+            "VolumeUsageInBytes": 5537694,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 5.537694e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 116094,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 5421600,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "888154843586",
+            "EmailAddress": "aws+digital_bluebin_prod@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:32.247Z",
+            "VolumeUsageInBytes": 6773768,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 6.773768e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 116168,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 6657600,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "914797696554",
+            "EmailAddress": "aws+digital_capsa_ai_qa@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:38.975Z",
+            "VolumeUsageInBytes": 20939636,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 2.0939636e-06,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 383636,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 20556000,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        },
+        {
+            "AccountId": "973515031887",
+            "EmailAddress": "aws+audit@capsahealthcare.com",
+            "GraphArn": "arn:aws:detective:us-east-2:516541255748:graph:51de4c2e09b74c92b3817c2faea9bf50",
+            "MasterId": "516541255748",
+            "AdministratorId": "516541255748",
+            "Status": "ENABLED",
+            "InvitedTime": "2025-10-03T09:37:29.863Z",
+            "UpdatedTime": "2025-10-03T09:37:31.688Z",
+            "VolumeUsageInBytes": 5978766,
+            "VolumeUsageUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "PercentOfGraphUtilization": 5.978766e-07,
+            "PercentOfGraphUtilizationUpdatedTime": "2025-10-15T15:43:17.493Z",
+            "InvitationType": "ORGANIZATION",
+            "VolumeUsageByDatasourcePackage": {
+                "ASFF_SECURITYHUB_FINDING": {
+                    "VolumeUsageInBytes": 119166,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "DETECTIVE_CORE": {
+                    "VolumeUsageInBytes": 5859600,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                },
+                "EKS_AUDIT": {
+                    "VolumeUsageInBytes": 0,
+                    "VolumeUsageUpdateTime": "2025-10-15T15:43:17.493Z"
+                }
+            },
+            "DatasourcePackageIngestStates": {
+                "ASFF_SECURITYHUB_FINDING": "STARTED",
+                "DETECTIVE_CORE": "STARTED",
+                "EKS_AUDIT": "STARTED"
+            }
+        }
+    ]
+}
